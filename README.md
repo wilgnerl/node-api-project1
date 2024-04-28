@@ -59,3 +59,13 @@ Rotas:
     Deve ser possível marcar a task como completa ou não. Isso significa que se a task estiver concluída, deve voltar ao seu estado “normal”.
 
     Antes da alteração, deve ser feito uma validação se o `id` pertence a uma task salva no banco de dados.
+
+### Para executar o projeto
+
+```bash
+    npm install
+    npm run dev
+
+    ## caso queira executar o stream
+    node import-csv.js
+```
